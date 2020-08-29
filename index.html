@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+        <title>Rohit Verma</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Rohit</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#blogs" class="nav__link">Blogs</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Rohit</span></h1><h2 class="home__about">BTech. CSE<br>Final Year</h2>
+
+                    <a href="assets/resume/Rohit_resume.pdf" target="_blank" class="button">Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/rohit96/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/rohit0906" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:rtverma121@gmail.com" target="_blank" class="home__social-icon"><i class='fa fa-envelope' ></i></a>
+                    <a href="https://medium.com/@rtverma121" target="_blank" class="home__social-icon"><i class='bx bxl-medium' ></i></a>
+                </div>
+
+                <div class="home__img">
+
+                </div>
+            </section>
+>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I am Rohit Verma</h2>
+                        <p class="about__text">I am skilled in Machine Learning and Deep Learning. I have completed a few projects like the Fire-Detection system using Deep Learning. I am looking for a full-time opportunity in the field of Data Science and Machine Learning starting May 2021.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Projects =====-->
+            <section class="work section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://github.com/rohit0906/fire-detector"><img src="assets/img/fire.jpeg" alt="" align="center"></a>
+                        <div class="overlay">Fire-Detection</div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/all.png" alt="">
+                        <div class="overlay">House Room Classifier</div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/asl.jpg" alt="">
+                        <div class="overlay">American Sign language Classifier</div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/harvest.jpg" alt="">
+                        <div class="overlay">Predict the Harvest</div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/stock.jpg" alt="" align="center">
+                        <div class="overlay">Stock Price Sentiment</div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/fake.jpeg" alt="">
+                        <div class="overlay">Fake News Classifier</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== Blogs =====-->
+            <section class="work section" id="blogs">
+                <h2 class="section-title">BLogs</h2>
+
+                <div class="blog__container bd-grid">
+                  <div id="medium-widget"></div>
+                  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+                  <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@rtverma121","postsPerLine":2,"limit":2,"picture":"big","fields":["description","author"],"ratio":"original"}})</script>
+
+                </div>
+            </section>
+
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Rohit</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/rohit0906" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/rohit96/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/rohit0906" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://twitter.com/rohit_0906" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
